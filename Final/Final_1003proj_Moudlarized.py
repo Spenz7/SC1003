@@ -37,7 +37,7 @@ def sortGroups(classes):
         sorted_class = sorted(class_list, key=lambda x: float(x[5]), reverse=True)
         sorted_classes.append(sorted_class)
 
-    print("Sorted classes by GPA:", sorted_classes)
+    #print("Sorted classes by GPA:", sorted_classes)
 
     AvgGPAlist = []
     for eachClass in sorted_classes:
